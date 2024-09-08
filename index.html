@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--main css-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Personnel Portfolio Website Design</title>
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active"> Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi 👋,</h3>
+            <h1> Abdessamad Akharaz</h1>
+            <h3>Data Engineering Student <span class="multiple-text"></span></h3>
+            <p> I'm a passionate Data Engineering student with a strong interest in AI and Software Engineering. This portfolio showcases my professional journey, skills, and projects. Here, you'll find details about my experience, academic background, and the work I've done in the field of data engineering and beyond.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/abdessamad-akharaz-88a2b0280/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Abdessamad-12"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.kaggle.com/abdessamadakharaz"><i class="fa-brands fa-kaggle"></i></a>
+            </div>
+            <a href="img/CV02.pdf" class="btn">Download CV</a>
+            
+        </div>
+        <div class="home-img">
+            <img src="img/1718304458741-modified.png" alt="pas d'image">
+        </div>
+
+    </section>
+
+
+    <!--About section-->
+
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Data engineering</h3>
+            <p>I'm a passionate Data Engineering student with a strong interest in AI and Software Engineering. This portfolio showcases my professional journey, skills, and projects. Here, you'll find details about my experience, academic background, and the work I've done in the field of data engineering and beyond.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!--services section-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>Data engineer</h3>
+                <p>as future data engineer i realy passionate with any thing related to data engineer </p>
+                <a href="#" class="btn"> Read more</a>
+
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-robot"></i>
+                <h3>Machine learning</h3>
+                <p>as a fututre data engineer you should to have a strong knowledge about machine learning which can easer to do a lot of thing with you data , and predict a lot of thing </p>
+                <a href="#" class="btn"> Read more</a>
+
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Developement</h3>
+                <p>in the fieled of web developement where i have a lot of knowledge wich make me able to develop a lot of thing like : siteweb , landing page , portfolio ...</p>
+                <a href="#" class="btn"> Read more</a>
+
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>App developement</h3>
+                <p>in the fieled of web developement where i have a lot of knowledge wich make me able to develop a lot of thing like : siteweb , landing page , portfolio ...</p>
+                <a href="#" class="btn"> Read more</a>
+
+            </div>
+        </div>
+    </section>
+    <!--portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/download.jpeg" alt="pas d'image">
+                <div class="portfolio-layer">
+                    <h4>Web scraping</h4>
+                    <p>In this project Develop a bot discord to enhance you shopping in amazon store</p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+
+            </div>
+            <div class="portfolio-box">
+                <img src="img/network.jpeg" alt="pas d'image">
+                <div class="portfolio-layer">
+                    <h4>Network analysis </h4>
+                    <p>Data extraction and network analysis of co-author</p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <form action="send_email.php" method="POST">
+                <div class="input-box">
+                    <input type="text" name="full_name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="number" name="mobile_number" placeholder="Mobile Number" required>
+                    <input type="text" name="subject" placeholder="Email Subject" required>
+                </div>
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+            <div class="information">
+                <h4>Phone number</h4>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone phone-icon"></i>
+                    <p>+212-613395966</p>
+                </div>
+                <h4>Email address</h4>
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope email-icon"></i>
+                    <p>Akharazabdessamad@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <!--footer section -->
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by@Abdessmad-12 | All Right Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--scroll section -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!--type js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--main section -->
+    <script src="JS/main.js"></script>
+</body>
+</html>
